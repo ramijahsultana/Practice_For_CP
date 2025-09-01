@@ -8,16 +8,16 @@ int main()
     {
         string s, t;
         cin >> s >> t;
-        string st;
-        int len = s.size() + t.size();
-        for(int i=0; i<len; i+=2)
+        string st ;
+        int len = max(s.size(), t.size());
+        for(int i=0; i<len; i++)
         {
-            
-            st[i] = s[i];
-            st[i+1] = t[i];
+            if(i<s.size())
+                st.push_back(s[i]);
+            if(i<t.size())   
+                st.push_back(t[i]);
         }
         cout << st << endl;
-
     }
     return 0;
 }
