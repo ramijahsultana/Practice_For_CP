@@ -1,2 +1,3 @@
-20852571225129716118202561518135
-198523119202351420252023152551181915124
+Occurrence of 'i' in 'I’ll do it now.' = 1
+Occurrence of 'd' in 'He didn't understand.' = 4
+Occurrence of 'v' in 'I would not be.' = 0 

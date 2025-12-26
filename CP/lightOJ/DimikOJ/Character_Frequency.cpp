@@ -14,6 +14,7 @@ int main()
         getline(cin, s);
         char c;
         cin >> c;
+        cin.ignore();  
         int count = 0;
         for(auto ch : s)
         {
@@ -22,7 +23,15 @@ int main()
                 count++;
             }
         }
-        cout << "Occurrence of '" << c << "' in '" << s << "' = " << count << "\n";
+        if(count > 0)
+        {
+            cout << "Occurrence of '" << c << "' in '" << s << "' = " << count << "\n";
+        }
+        else
+        {
+            cout << "'" << c << "' is not present" << "\n";
+        }
+      
 
 
     }
