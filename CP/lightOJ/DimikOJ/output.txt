@@ -1,3 +1,2 @@
-Occurrence of 'i' in 'I’ll do it now.' = 1
-Occurrence of 'd' in 'He didn't understand.' = 4
-Occurrence of 'v' in 'I would not be.' = 0 
+LCM = 629228115
+LCM = 81694856

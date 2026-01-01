@@ -30,7 +30,7 @@ int main()
         else
         {
             cout << "'" << c << "' is not present" << "\n";
-        }
+        } 
       
 
 
